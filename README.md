@@ -4,3 +4,6 @@ The backdrop video for the Superstore in Motion Tableau dashboard, served to a W
 
 - backdrop.html — the cover page the Web Page object points at
 - backdrop-1040x680.{mp4,webm}, backdrop-1040x680-poster.jpg
+
+## 2026-11-06 16:5x — v2: the full frame shown
+The lead: the video's own titles were cut at full size (scale=increase + crop lost the top and bottom rows). v2 contains the whole 1456 x 1084 frame at 913 x 680 over a blurred cover fill (ffmpeg: scale=increase,crop,gblur sigma 28 as [bg]; scale=-2:680 as [fg]; overlay centred). mp4 h264 crf 24 · webm vp9 crf 34 · poster = frame 0. Sources carry ?v=2 to pass the caches.
