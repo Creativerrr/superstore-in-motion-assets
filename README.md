@@ -10,3 +10,5 @@ The lead: the video's own titles were cut at full size (scale=increase + crop lo
 
 ## 2026-11-09 — Phase 2, card 1: `sub-category/`
 `sub-category/backdrop.html` + `backdrop-1040x680.{mp4,webm}` + poster — the design's `flower_mint.mp4` (1456 x 1084, 30 fps, 30.0 s) at 1040 x 680 COVER (the html's `object-fit: cover`; ffmpeg scale=increase,crop; x264 crf 23 · vp9 crf 34). One folder per Phase 2 card.
+
+### 2026-11-09 v2 — the lead: the SLOW flower (`slow_flower.mp4`, 30.0 s) replaces `flower_mint`; sources `?v=2`; an asset-only swap, no republish.
